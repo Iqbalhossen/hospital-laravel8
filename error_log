@@ -1,0 +1,18 @@
+[19-Dec-2021 02:38:31 America/New_York] PHP Warning:  include(/home/suoxuahd/demo.suoxihealthcarelimited.com/app/Http/Kernel.php): failed to open stream: No such file or directory in /home/suoxuahd/demo.suoxihealthcarelimited.com/vendor/composer/ClassLoader.php on line 480
+[19-Dec-2021 02:38:31 America/New_York] PHP Warning:  include(): Failed opening '/home/suoxuahd/demo.suoxihealthcarelimited.com/vendor/composer/../../app/Http/Kernel.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home/suoxuahd/demo.suoxihealthcarelimited.com/vendor/composer/ClassLoader.php on line 480
+[19-Dec-2021 02:38:31 America/New_York] PHP Fatal error:  Uncaught ReflectionException: Class App\Http\Kernel does not exist in /home/suoxuahd/demo.suoxihealthcarelimited.com/vendor/laravel/framework/src/Illuminate/Container/Container.php:877
+Stack trace:
+#0 /home/suoxuahd/demo.suoxihealthcarelimited.com/vendor/laravel/framework/src/Illuminate/Container/Container.php(877): ReflectionClass->__construct('App\\Http\\Kernel')
+#1 /home/suoxuahd/demo.suoxihealthcarelimited.com/vendor/laravel/framework/src/Illuminate/Container/Container.php(758): Illuminate\Container\Container->build('App\\Http\\Kernel')
+#2 /home/suoxuahd/demo.suoxihealthcarelimited.com/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(841): Illuminate\Container\Container->resolve('App\\Http\\Kernel', Array, false)
+#3 /home/suoxuahd/demo.suoxihealthcarelimited.com/vendor/laravel/framework/src/Illuminate/Container/Container.php(296): Illuminate\Foundation\Application->resolve('App\\Http\\Kernel', Array, false)
+#4 /home/suoxuahd/demo.suoxihealthcarelimited.com/vendor/laravel/framework/src/Il in /home/suoxuahd/demo.suoxihealthcarelimited.com/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 879
+[19-Dec-2021 02:38:52 America/New_York] PHP Warning:  include(/home/suoxuahd/demo.suoxihealthcarelimited.com/vendor/composer/../../app/Http/Kernel.php): failed to open stream: No such file or directory in /home/suoxuahd/demo.suoxihealthcarelimited.com/vendor/composer/ClassLoader.php on line 480
+[19-Dec-2021 02:38:52 America/New_York] PHP Warning:  include(): Failed opening '/home/suoxuahd/demo.suoxihealthcarelimited.com/vendor/composer/../../app/Http/Kernel.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home/suoxuahd/demo.suoxihealthcarelimited.com/vendor/composer/ClassLoader.php on line 480
+[19-Dec-2021 02:38:52 America/New_York] PHP Fatal error:  Uncaught ReflectionException: Class App\Http\Kernel does not exist in /home/suoxuahd/demo.suoxihealthcarelimited.com/vendor/laravel/framework/src/Illuminate/Container/Container.php:877
+Stack trace:
+#0 /home/suoxuahd/demo.suoxihealthcarelimited.com/vendor/laravel/framework/src/Illuminate/Container/Container.php(877): ReflectionClass->__construct('App\\Http\\Kernel')
+#1 /home/suoxuahd/demo.suoxihealthcarelimited.com/vendor/laravel/framework/src/Illuminate/Container/Container.php(758): Illuminate\Container\Container->build('App\\Http\\Kernel')
+#2 /home/suoxuahd/demo.suoxihealthcarelimited.com/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(841): Illuminate\Container\Container->resolve('App\\Http\\Kernel', Array, false)
+#3 /home/suoxuahd/demo.suoxihealthcarelimited.com/vendor/laravel/framework/src/Illuminate/Container/Container.php(296): Illuminate\Foundation\Application->resolve('App\\Http\\Kernel', Array, false)
+#4 /home/suoxuahd/demo.suoxihealthcarelimited.com/vendor/laravel/framework/src/Il in /home/suoxuahd/demo.suoxihealthcarelimited.com/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 879
